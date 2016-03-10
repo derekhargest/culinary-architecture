@@ -1,0 +1,89 @@
+.logo{
+	float: left;
+	width: 80.1666%
+
+}
+
+.slicknav_btn{
+	padding: 6% 5% 0.438em 0.625em;
+}
+
+.mobile-navigation{
+	display: none;
+}
+
+.main-navigation{
+	display: none;
+	.menu-main-navigation-container{
+		@include clearfix;
+		.menu{
+			@include clearfix;
+		}
+	}
+}
+
+.logo .site-title span{
+	display: block;
+	text-indent: -999999px;
+}
+
+.main-navigation{
+	min-width: 900px;
+	ul li{
+		float: left;
+		width: 16.6667%;
+		text-align: center;
+		line-height: 1.5rem;
+		padding-top: 4.1999%;
+		padding-bottom: 1.1%;
+		height: 3.5rem;
+		&:last-child{
+			background: #cfd9ef;
+		}
+	}
+	.current_page_item a{
+		color: $c-ca_logo_red !important;
+	}
+}
+.slicknav_menu{
+	ul li{
+		a{
+			padding: .5em 0;
+			margin: 0 !important;
+		}
+	}
+}
+
+
+@media (min-width: 1320px){
+	.mobile-navigation{
+		display: none;
+	}
+	.main-navigation{
+		width: 68.584%;
+		float: right;
+		padding-left: 2.25%;
+		display: block;
+	}
+	#mobile-menu-location{
+		display: none;
+	}
+}
+
+@media (min-width: 468px){
+		.logo{
+				width: 29.1666%;
+				min-width: 375px;
+		}
+		.slicknav_btn{
+			padding: 1.85em 1.75em 0.438em 0.625em;
+		}
+		.slicknav_menu{
+			ul li{
+				a{
+					padding: 1em 0;
+					margin: 0 !important;
+				}
+			}
+		}
+	}

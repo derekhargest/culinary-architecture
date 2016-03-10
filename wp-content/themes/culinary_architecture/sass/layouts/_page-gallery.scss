@@ -1,0 +1,50 @@
+.page-gallery{
+	margin-top: 5em;
+	.ngg-widget{
+		float: left;
+	}
+	a{
+		display: block;
+		float: left;
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 1em;
+		img{
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	h2{
+		display: none;
+	}
+}
+
+@media (min-width: 450px){
+	.page-gallery{
+		a{
+			width: 49.153%;
+			margin-right: 1.69492%;
+			margin-bottom: .5em;
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+		}
+}
+
+}
+
+@media (min-width: 770px){
+	.page-gallery{
+		a{
+			width: 32.20339%;
+			margin-bottom: 1em;
+				&:nth-child(2n){
+					margin-right: 1.69492%;
+				}
+				&:nth-child(3n){
+					margin-right: 0;
+				}
+		}
+	}
+}

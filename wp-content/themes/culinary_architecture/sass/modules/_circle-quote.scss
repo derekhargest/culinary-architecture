@@ -1,0 +1,172 @@
+.page-template-template-contact .circle-quote{
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+
+.circle-quote{
+	background: url('images/bg-quote.png') no-repeat $c-ca-purple center 11%;
+	background-size: 46px 42px;
+	margin: 0 auto;
+	display: table;
+	max-width: 100% !important;
+    &:before{
+    content: '';
+    display: inline-block;
+    height:100%;
+    vertical-align: middle;
+    }
+	.quote-content{
+		display: table-cell;
+		vertical-align: middle;
+		padding-top: .5em;
+		p{
+			margin-bottom: 0px;
+			padding: 0;
+			&.quote-author{
+				margin-top: 1em;
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.quote-author{
+		padding-top: .75em;
+	}
+}
+
+
+.quote-inner{
+	display: block;
+	margin: 0 auto;
+	min-width: 275px;
+	margin-top: 1.75em;
+	&.large{
+		padding: 4em 0 2em 0;
+	}
+}
+
+.staff-row .circle-quote{
+	width:100% !important;
+	height: auto !important;
+	margin: 0px auto 40px auto;
+	border-radius: 50%;
+}
+
+.circle-quote.large{
+	background: url('images/bg-quote.png') no-repeat $c-ca-purple center 9%;
+	background-size: 46px 42px;
+	margin: 30px auto 30px auto;
+	display: table;
+  .quote-content
+    {
+				display: table-cell;
+        vertical-align: middle;
+				width: 100% !important;
+    }
+}
+
+.circle-quote.small{
+	.quote-inner{
+		min-width: 260px;
+	}
+}
+
+@media (min-width: 1170px){
+	.circle-quote{
+		p{
+			font-weight: 900;
+			font-size: 1.35em;
+		}
+	}
+	.circle-quote.large{
+		border-radius: 50%;
+		.quote-content{
+			vertical-align: middle;
+			p{
+				margin-top: 1%;
+				margin-bottom: 0px;
+				padding: 0 1em;
+
+				&.quote-author{
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+			}
+		}
+		.quote-author{
+			padding-top: .75em;
+		}
+	}
+	.quote-inner{
+			width: 50%;
+			min-width: 365px;
+			&.large{
+				padding: 5em 0 5em 0;
+			}
+	}
+	.circle-quote{
+		.quote-author{
+			padding-top: .75em;
+		}
+	}
+}
+@media (max-width: 400px){
+	.circle-quote.large{
+		.quote-inner{
+
+			p{
+				font-size: 100% !important;
+			}
+		}
+	}
+}
+@media (max-width: 630px){
+
+	.circle-quote.large{
+		width: 100% !important;
+		.quote-inner{
+			width: 100% !important;
+			padding-left: 0;
+			padding-right: 0;
+			p{
+				font-size: 75% !important;
+			}
+		}
+	}
+}
+
+@media (min-width: 392px){
+	.quote-inner p{
+	font-size: 1.5em;
+	}
+}
+
+@media (max-width: 470px){
+	.circle-quote{
+		width: 100% !important;
+		.quote-inner{
+			width: 100% !important;
+		}
+	}
+}
+
+@media (min-width: 560px){
+	.circle-quote{
+		border-radius: 50%;
+	}
+	.quote-inner{
+
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 850px){
+	.banner{
+			margin-bottom: 80px;
+	}
+	.quote-inner.large{
+		min-width: 426px;
+
+	}
+
+}

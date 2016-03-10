@@ -1,0 +1,54 @@
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+);
+
+.container{
+	@include container(1410px);
+	@include clearfix;
+  padding: 0 3%;
+}
+
+.content-container{
+  width: 100%;
+	&.bottom{
+		margin-top: 0;
+	}
+}
+
+.site-header-main{
+	@include clearfix;
+}
+
+.banner{
+	@include container(1500px);
+	@include clearfix;
+}
+
+.home .site-main{
+	margin-bottom: 90px;
+}
+
+.site-main article{
+	margin-bottom: .5em;
+}
+
+@media (min-width: 450px){
+  .content-container{
+    @include span(10 of 12);
+    float: none;
+    margin: 0 auto;
+      &.bottom{
+        margin-top: 3em;
+      }
+  }
+}
+
+@media (min-width: 1320px){
+	.site-header-main{
+		max-height: 120px;
+		margin-bottom: 4.5%;
+	}
+}
