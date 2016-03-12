@@ -1,4 +1,3 @@
 ._*
 wp-config.php
-wp-content/themes/culinary-architecture/.sass-cache
-wp-content/themes/culinary-architecture/.sass-cache/*
+.sass-cache
