@@ -326,9 +326,6 @@ small {
   text-decoration: none;
   font-weight: 600;
 }
-.main-navigation ul li a:hover, .slicknav_menu ul li a:hover {
-  text-decoration: underline;
-}
 .main-navigation ul li:last-child a, .slicknav_menu ul li:last-child a {
   font-weight: 900;
 }
@@ -427,7 +424,7 @@ small {
     font-size: .95em;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   html {
     font: 100%/1.5 'Open Sans', sans-serif;
   }
@@ -444,6 +441,13 @@ small {
     padding: 0;
   }
 }
+.site-main {
+  margin-top: 7em;
+  overflow: hidden;
+  *zoom: 1;
+  float: left;
+}
+
 .container {
   max-width: 1410px;
   margin-left: auto;
@@ -565,6 +569,9 @@ body {
   *zoom: 1;
   text-align: center;
   margin-bottom: 3em;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 .button span {
   margin: 0 auto;
@@ -585,6 +592,7 @@ body {
 }
 .button:hover {
   text-decoration: none;
+  opacity: .85;
 }
 
 .page-template-template_private-dining .button {
@@ -611,6 +619,21 @@ body {
 .logo {
   float: left;
   width: 80.1666%;
+  background: #dd3a27;
+  height: 4.15em;
+  display: table;
+}
+.logo .site-title {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.site-header-main {
+  position: fixed;
+  z-index: 20;
+  background: #fff;
+  width: 100%;
+  height: auto;
 }
 
 .slicknav_btn {
@@ -646,9 +669,20 @@ body {
   width: 16.6667%;
   text-align: center;
   line-height: 1.5rem;
-  padding-top: 4.1999%;
-  padding-bottom: 1.1%;
+  padding-top: 3.45%;
+  padding-bottom: 1.95%;
   height: 3.5rem;
+}
+.main-navigation ul li a {
+  border-bottom: 1px solid rgba(221, 58, 39, 0);
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+}
+.main-navigation ul li a:hover {
+  border-bottom: 1px solid #dd3a27;
+  color: #dd3a27;
 }
 .main-navigation ul li:last-child {
   background: #cfd9ef;
@@ -661,8 +695,11 @@ body {
   padding: .5em 0;
   margin: 0 !important;
 }
+.slicknav_menu .slicknav_btn {
+  padding: 1.75em 1.75em 0.438em 0.625em;
+}
 
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   .mobile-navigation {
     display: none;
   }
@@ -670,22 +707,26 @@ body {
   .main-navigation {
     width: 68.584%;
     float: right;
-    padding-left: 2.25%;
     display: block;
   }
 
   #mobile-menu-location {
     display: none;
   }
+
+  .site-header-main {
+    height: 4.15em;
+  }
+}
+@media (min-width: 1580px) {
+  .site-header-main {
+    height: auto;
+  }
 }
 @media (min-width: 468px) {
   .logo {
-    width: 29.1666%;
-    min-width: 375px;
-  }
-
-  .slicknav_btn {
-    padding: 1.85em 1.75em 0.438em 0.625em;
+    width: 30.1666%;
+    min-width: 350px;
   }
 
   .slicknav_menu ul li a {
@@ -693,6 +734,11 @@ body {
     margin: 0 !important;
   }
 }
+.site-footer {
+  width: 100%;
+  float: left;
+}
+
 .footer-content {
   background: #17a0d6;
   padding: 2em 3% !important;
@@ -742,6 +788,12 @@ body {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.footer-social li a:hover {
+  opacity: 0.5;
 }
 
 @media (min-width: 450px) {
@@ -773,9 +825,16 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 .page-gallery h2 {
   display: none;
+}
+
+.page-gallery a:hover img {
+  opacity: .85;
 }
 
 @media (min-width: 450px) {
@@ -810,6 +869,14 @@ body {
 .image-row ul li {
   margin-top: 1em;
 }
+.image-row ul:hover img {
+  opacity: .85;
+}
+.image-row ul img {
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
 
 .staff-row {
   width: 100%;
@@ -822,6 +889,14 @@ body {
 }
 .staff-row ul li {
   margin-bottom: 2em;
+}
+.staff-row ul li:hover img {
+  opacity: .85;
+}
+.staff-row ul li img {
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 
 @media (min-width: 970px) {
@@ -897,6 +972,9 @@ body {
   margin: 0 auto;
   display: table;
   max-width: 100% !important;
+}
+.circle-quote:hover {
+  cursor: default;
 }
 .circle-quote:before {
   content: '';

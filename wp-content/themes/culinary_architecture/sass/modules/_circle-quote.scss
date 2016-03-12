@@ -10,6 +10,9 @@
 	margin: 0 auto;
 	display: table;
 	max-width: 100% !important;
+	&:hover{
+		cursor: default;
+	}
     &:before{
     content: '';
     display: inline-block;

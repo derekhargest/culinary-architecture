@@ -5,7 +5,15 @@
 		li{
 			margin-top: 1em;
 		}
-	}
+		&:hover img{
+			opacity: .85;
+		}
+		img{
+			transition: opacity .25s ease-in-out;
+	 -moz-transition: opacity .25s ease-in-out;
+	 -webkit-transition: opacity .25s ease-in-out;
+		}
+}
 }
 
 .staff-row{
@@ -18,6 +26,14 @@
 		li{
 
 				margin-bottom: 2em;
+				&:hover img{
+					opacity: .85;
+				}
+				img{
+					transition: opacity .25s ease-in-out;
+		   -moz-transition: opacity .25s ease-in-out;
+		   -webkit-transition: opacity .25s ease-in-out;
+				}
 		}
 	}
 }

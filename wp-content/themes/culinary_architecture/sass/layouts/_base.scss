@@ -57,6 +57,9 @@ body {background:#fff;}
 	@include clearfix;
 	text-align: center;
 	margin-bottom: 3em;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 	span{
 		margin: 0 auto;
 		float: none;
@@ -75,6 +78,7 @@ body {background:#fff;}
 	}
 	&:hover{
 		text-decoration: none;
+		opacity: .85;
 	}
 }
 

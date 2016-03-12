@@ -1,3 +1,8 @@
+	.site-footer{
+		width: 100%;
+		float: left;
+	}
+
 .footer-content{
 	background: $c-ca-blue;
 	padding: 2em 3% !important;
@@ -10,7 +15,7 @@
 	width: 100%;
 	float: left;
 	&.last{
-		margin-bottom: 2em;	
+		margin-bottom: 2em;
 	}
 	span{
 		width: 100%;
@@ -45,6 +50,12 @@
 		display: table-cell;
 		vertical-align: middle;
 		font-size: 30px;
+		transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+		&:hover{
+			opacity: 0.5;
+		}
 	}
 }
 

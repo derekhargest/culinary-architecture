@@ -1,4 +1,4 @@
-<footer>
+<footer class="site-footer">
 	<div class="footer-content container">
 		<h4>Come Say Hi</h4>
 		<div class="footer-item">

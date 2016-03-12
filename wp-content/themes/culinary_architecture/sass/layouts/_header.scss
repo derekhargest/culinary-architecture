@@ -1,7 +1,22 @@
 .logo{
 	float: left;
-	width: 80.1666%
+	width: 80.1666%;
+	background: $c-ca_logo_red;
+	height: 4.15em;
+	display: table;
+	.site-title{
+		display: table-cell;
+		vertical-align: middle;
+	}
 
+}
+
+.site-header-main{
+	position: fixed;
+	z-index: 20;
+	background: #fff;
+	width: 100%;
+	height: auto;
 }
 
 .slicknav_btn{
@@ -34,9 +49,24 @@
 		width: 16.6667%;
 		text-align: center;
 		line-height: 1.5rem;
-		padding-top: 4.1999%;
-		padding-bottom: 1.1%;
+		padding-top: 3.45%;
+		padding-bottom: 1.95%;
 		height: 3.5rem;
+		a{
+			border-bottom: 1px solid rgba(221, 58, 39, 0);
+			-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+
+
+
+	 &:hover{
+		 border-bottom: 1px solid rgba(221, 58, 39, 1);
+		 color: rgba(221,58,39,1);
+	 }
+
+		}
 		&:last-child{
 			background: #cfd9ef;
 		}
@@ -52,31 +82,39 @@
 			margin: 0 !important;
 		}
 	}
+	.slicknav_btn{
+		padding: 1.75em 1.75em 0.438em 0.625em;
+	}
 }
 
 
-@media (min-width: 1320px){
+@media (min-width: 1280px){
 	.mobile-navigation{
 		display: none;
 	}
 	.main-navigation{
 		width: 68.584%;
 		float: right;
-		padding-left: 2.25%;
 		display: block;
 	}
 	#mobile-menu-location{
 		display: none;
 	}
+	.site-header-main{
+		height: 4.15em;
+	}
+}
+
+@media (min-width: 1580px){
+	.site-header-main{
+	height: auto;
+}
 }
 
 @media (min-width: 468px){
 		.logo{
-				width: 29.1666%;
-				min-width: 375px;
-		}
-		.slicknav_btn{
-			padding: 1.85em 1.75em 0.438em 0.625em;
+				width: 30.1666%;
+				min-width: 350px;
 		}
 		.slicknav_menu{
 			ul li{

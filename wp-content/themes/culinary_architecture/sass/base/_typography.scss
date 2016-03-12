@@ -55,7 +55,8 @@ small{
 		text-decoration: none;
 		font-weight: 600;
 		&:hover{
-			text-decoration: underline;
+
+
 		}
 	}
 	&:last-child a{
@@ -178,7 +179,7 @@ small{
 	}
 }
 
-@media (min-width: 1320px){
+@media (min-width: 1280px){
 	html {
 		font: 100%/1.5 'Open Sans', sans-serif;
 	}

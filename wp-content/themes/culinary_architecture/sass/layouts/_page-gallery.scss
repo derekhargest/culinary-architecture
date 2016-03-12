@@ -9,15 +9,23 @@
 		width: 100%;
 		margin-right: 0px;
 		margin-bottom: 1em;
+
 		img{
 			border: 0;
 			margin: 0;
 			padding: 0;
+			transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 		}
 	}
 	h2{
 		display: none;
 	}
+}
+
+.page-gallery a:hover img{
+	opacity: .85;
 }
 
 @media (min-width: 450px){

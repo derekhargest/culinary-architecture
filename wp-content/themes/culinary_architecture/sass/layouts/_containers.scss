@@ -5,11 +5,19 @@ $susy: (
   gutters: .25,
 );
 
+.site-main{
+  margin-top: 7em;
+  @include clearfix;
+  float: left;
+}
+
 .container{
 	@include container(1410px);
 	@include clearfix;
   padding: 0 3%;
 }
+
+
 
 .content-container{
   width: 100%;
