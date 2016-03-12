@@ -442,7 +442,7 @@ small {
   }
 }
 .site-main {
-  margin-top: 7em;
+  margin-top: 4.21em;
   overflow: hidden;
   *zoom: 1;
   float: left;
@@ -511,6 +511,10 @@ small {
   .site-header-main {
     max-height: 120px;
     margin-bottom: 4.5%;
+  }
+
+  .site-main {
+    margin-top: 7em;
   }
 }
 img {
@@ -620,7 +624,7 @@ body {
   float: left;
   width: 80.1666%;
   background: #dd3a27;
-  height: 4.15em;
+  height: 4.16em;
   display: table;
 }
 .logo .site-title {
@@ -661,9 +665,6 @@ body {
   text-indent: -999999px;
 }
 
-.main-navigation {
-  min-width: 900px;
-}
 .main-navigation ul li {
   float: left;
   width: 16.6667%;
@@ -725,7 +726,7 @@ body {
 }
 @media (min-width: 468px) {
   .logo {
-    width: 30.1666%;
+    width: 31.1666%;
     min-width: 350px;
   }
 
