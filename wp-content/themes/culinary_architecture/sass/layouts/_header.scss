@@ -2,7 +2,7 @@
 	float: left;
 	width: 80.1666%;
 	background: $c-ca_logo_red;
-	height: 4.15em;
+	height: 4.16em;
 	display: table;
 	.site-title{
 		display: table-cell;
@@ -43,7 +43,6 @@
 }
 
 .main-navigation{
-	min-width: 900px;
 	ul li{
 		float: left;
 		width: 16.6667%;
@@ -105,6 +104,12 @@
 	}
 }
 
+@media (min-width: 1322px){
+		.main-navigation{
+
+		}
+}
+
 @media (min-width: 1580px){
 	.site-header-main{
 	height: auto;
@@ -113,7 +118,7 @@
 
 @media (min-width: 468px){
 		.logo{
-				width: 30.1666%;
+				width: 31.1666%;
 				min-width: 350px;
 		}
 		.slicknav_menu{

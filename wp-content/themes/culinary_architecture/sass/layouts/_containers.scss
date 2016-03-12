@@ -6,7 +6,7 @@ $susy: (
 );
 
 .site-main{
-  margin-top: 7em;
+  margin-top: 4.21em;
   @include clearfix;
   float: left;
 }
@@ -59,4 +59,7 @@ $susy: (
 		max-height: 120px;
 		margin-bottom: 4.5%;
 	}
+  .site-main{
+    margin-top: 7em;
+  }
 }
