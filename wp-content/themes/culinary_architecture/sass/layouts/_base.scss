@@ -18,6 +18,10 @@ body {background:#fff;}
 	-webkit-focus-ring-color: auto 0px;
 }
 
+.site-main{
+	width: 100%;
+}
+
 .content-area{
 	max-width: 1500px;
 	margin: 0 auto;
@@ -60,11 +64,13 @@ body {background:#fff;}
 	transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+	 color: #fff !important;
+	 font-weight: 700;
 	span{
 		margin: 0 auto;
 		float: none;
 		@include clearfix;
-		color: #fff;
+		color: #fff !important;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: .85em;
@@ -98,6 +104,31 @@ body {background:#fff;}
 #map{
 	height: 400px;
 }
+#fancybox-title{
+	display: none !important;
+
+}
+#fancybox-left-ico, #fancybox-right-ico, #fancybox-close{
+	width: 47px !important;
+	height: 47px !important;
+}
+
+#fancybox-left-ico {
+    background-image: url('images/left-arrow.png') !important;
+    background-position: 0px 0px !important;
+}
+
+#fancybox-right-ico {
+    background-image: url('images/right-arrow.png') !important;
+    background-position: 0px 0px !important;
+}
+
+#fancybox-close{
+	background-image: url('images/close-btn.png') !important;
+	background-position: 0px 0px !important;
+}
+
+
 @media (min-width: 630px){
 		.button{
 		width: 54.7%;
