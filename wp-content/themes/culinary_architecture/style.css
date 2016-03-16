@@ -656,10 +656,16 @@ body {
   background: #dd3a27;
   height: 4.16em;
   display: table;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  -webkit-backface-visibility: hidden;
 }
 .logo .site-title {
   display: table-cell;
   vertical-align: middle;
+}
+.logo:hover {
+  opacity: .85;
 }
 
 .site-header-main {
@@ -704,19 +710,30 @@ body {
   padding-bottom: 1.95%;
   height: 3.5rem;
 }
+.main-navigation ul li:hover {
+  cursor: pointer;
+}
+.main-navigation ul li:hover a {
+  border-bottom: 1px solid #dd3a27;
+  color: #dd3a27;
+}
 .main-navigation ul li a {
-  border-bottom: 1px solid rgba(221, 58, 39, 0);
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -ms-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
-}
-.main-navigation ul li a:hover {
-  border-bottom: 1px solid #dd3a27;
-  color: #dd3a27;
+  border-bottom: 1px solid rgba(221, 58, 39, 0);
 }
 .main-navigation ul li:last-child {
   background: #cfd9ef;
+}
+.main-navigation ul li:last-child:hover {
+  opacity: .85;
+}
+.main-navigation ul li:last-child:hover a {
+  text-decoration: none !important;
+  color: #0c1833;
+  border-bottom: 1px solid rgba(221, 58, 39, 0) !important;
 }
 .main-navigation .current_page_item a {
   color: #dd3a27 !important;
@@ -859,6 +876,7 @@ body {
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  -webkit-backface-visibility: hidden;
 }
 .page-gallery h2 {
   display: none;
@@ -899,14 +917,25 @@ body {
 }
 .image-row ul li {
   margin-top: 1em;
+  -webkit-backface-visibility: hidden;
 }
-.image-row ul:hover img {
+.image-row ul li:hover {
+  text-decoration: none !important;
+}
+.image-row ul li:hover img {
   opacity: .85;
+  text-decoration: none !important;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
 }
 .image-row ul img {
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  opacity: 1.0;
+  -webkit-backface-visibility: hidden !important;
+  position: relative;
+  bottom: 0px;
 }
 
 .staff-row {
@@ -928,6 +957,8 @@ body {
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  position: relative;
+  bottom: 0px;
 }
 
 @media (min-width: 970px) {

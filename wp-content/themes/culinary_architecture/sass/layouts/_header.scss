@@ -4,9 +4,15 @@
 	background: $c-ca_logo_red;
 	height: 4.16em;
 	display: table;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	-webkit-backface-visibility: hidden;
 	.site-title{
 		display: table-cell;
 		vertical-align: middle;
+	}
+	&:hover{
+		opacity: .85;
 	}
 
 }
@@ -51,23 +57,32 @@
 		padding-top: 3.45%;
 		padding-bottom: 1.95%;
 		height: 3.5rem;
+		&:hover{
+			cursor: pointer;
+		}
+		&:hover a{
+		 border-bottom: 1px solid rgba(221, 58, 39, 1);
+		 color: rgba(221,58,39,1);
+	 }
 		a{
-			border-bottom: 1px solid rgba(221, 58, 39, 0);
 			-webkit-transition: all .25s ease-in-out;
 		-moz-transition: all .25s ease-in-out;
 		-ms-transition: all .25s ease-in-out;
 		-o-transition: all .25s ease-in-out;
-
-
-
-	 &:hover{
-		 border-bottom: 1px solid rgba(221, 58, 39, 1);
-		 color: rgba(221,58,39,1);
-	 }
+		border-bottom: 1px solid rgba(221, 58, 39, 0);
 
 		}
+
 		&:last-child{
 			background: #cfd9ef;
+			&:hover{
+				opacity: .85;
+				a{
+					text-decoration: none !important;
+					color: $c-text_color;
+					border-bottom: 1px solid rgba(221, 58, 39, 0) !important;
+				}
+			}
 		}
 	}
 	.current_page_item a{

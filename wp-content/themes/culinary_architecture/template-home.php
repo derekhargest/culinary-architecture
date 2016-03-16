@@ -26,7 +26,7 @@
 
 				<div class="banner">
 					<?php if (get_field('page_banner_2')): ?>
-						<img src="<?php the_field('page_banner_2'); ?>" alt="" />
+						<img src="<?php the_field('page_banner_2'); ?>" alt="<?php the_title(); ?> Banner" />
 					<?php endif; ?>
 				</div>
 					<div class="content-container">

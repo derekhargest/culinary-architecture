@@ -64,7 +64,7 @@
 
 
 
-				<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/store-image.jpg" alt="" class="circle-quote">
+				<img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/store-image.jpg" alt="Location Image" title="Location Image" class="circle-quote">
 
 			</div>
 

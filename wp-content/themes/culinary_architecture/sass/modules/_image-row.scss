@@ -4,14 +4,26 @@
 		@include clearfix();
 		li{
 			margin-top: 1em;
-		}
-		&:hover img{
-			opacity: .85;
+			-webkit-backface-visibility: hidden;
+			&:hover {
+				text-decoration: none !important;
+			}
+			&:hover img{
+				opacity: .85;
+				text-decoration: none !important;
+				width: 100%;
+				-webkit-backface-visibility: hidden;
+			}
 		}
 		img{
 			transition: opacity .25s ease-in-out;
 	 -moz-transition: opacity .25s ease-in-out;
 	 -webkit-transition: opacity .25s ease-in-out;
+	 opacity: 1.0;
+	 -webkit-backface-visibility: hidden !important;
+	 position: relative;
+	 bottom: 0px;
+
 		}
 }
 }
@@ -33,6 +45,8 @@
 					transition: opacity .25s ease-in-out;
 		   -moz-transition: opacity .25s ease-in-out;
 		   -webkit-transition: opacity .25s ease-in-out;
+			 position: relative;
+			 bottom: 0px;
 				}
 		}
 	}
