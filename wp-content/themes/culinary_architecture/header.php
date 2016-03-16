@@ -24,6 +24,7 @@
 		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.slicknav.js"></script>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.20"></script>
 		<script>
 		  function initialize() {
