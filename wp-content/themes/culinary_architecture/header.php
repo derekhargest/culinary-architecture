@@ -2,11 +2,10 @@
 /**
  * The template for displaying the header
  *
- * Displays all of the head element and everything up until the "site-content" div.
  *
- * @package WordPress
- * @subpackage Default_Wordpress
- * @since 2016ß
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
  */
 ?>
 
@@ -28,20 +27,20 @@
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.20"></script>
 		<script>
 		  function initialize() {
-		    var myLatLng = {lat: 39.308854, lng: -76.623929};
+		    var myLatLng = {lat: 39.282958, lng: -76.627836};
 
 		    var mapCanvas = document.getElementById('map');
 		    var mapOptions = {
 		      zoom: 17,
 		      mapTypeId: google.maps.MapTypeId.ROADMAP,
-		      center: new google.maps.LatLng(39.308854, -76.623929),
+		      center: new google.maps.LatLng(39.282958, -76.627836),
 					scrollwheel: false
 		    }
 		    var map = new google.maps.Map(mapCanvas, mapOptions);
 		            var marker = new google.maps.Marker({
 		                map: map,
 		                position: myLatLng,
-		                title: 'Hello World!'
+		                title: 'Culinary Architecture'
 		    });
 		  }
 		  google.maps.event.addDomListener(window, 'load', initialize);
