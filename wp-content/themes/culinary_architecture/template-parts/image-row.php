@@ -5,7 +5,7 @@
 		<?php while( have_rows('image_row') ) : the_row();
 				$imgRowImg = get_sub_field('image_row_img');
 			?>
-				<li><a href=""><img src="<?php echo $imgRowImg; ?>" title="Culinary Architecture Image" alt="Culinary Architecture Image"></a></li>
+				<li><img src="<?php echo $imgRowImg; ?>" title="Culinary Architecture Image" alt="Culinary Architecture Image"></li>
 		<?php endwhile; ?>
 		</ul>
 	</div>
