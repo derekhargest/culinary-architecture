@@ -31,8 +31,8 @@
 
   		</div>
 
-      <?php if ( is_active_sidebar( 'gallery_makers' ) ) : ?>
-        <?php dynamic_sidebar( 'gallery_makers' ); ?>
+      <?php if ( is_active_sidebar( 'gallery_private_dining' ) ) : ?>
+        <?php dynamic_sidebar( 'gallery_private_dining' ); ?>
       <?php endif; ?>
 
     </div>

@@ -39,7 +39,16 @@
 
 		register_sidebar( array(
 			'name'          => 'Market Gallery',
-			'id'            => 'market_catering',
+			'id'            => 'gallery_market',
+			'before_widget' => '<div class="page-gallery">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2>',
+			'after_title'   => '</h2>',
+		) );
+
+		register_sidebar( array(
+			'name'          => 'Private Dining Gallery',
+			'id'            => 'gallery_private_dining',
 			'before_widget' => '<div class="page-gallery">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h2>',
