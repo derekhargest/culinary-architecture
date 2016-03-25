@@ -669,6 +669,9 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+.logo a img {
+  width: 100%;
+}
 .logo:hover {
   opacity: .85;
 }
