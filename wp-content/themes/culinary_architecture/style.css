@@ -16,7 +16,7 @@ Tags: responsive-layout, post-formats
   display: block;
   vertical-align: middle;
   float: right;
-  padding: 1.85em 1.75em 0.438em 0.625em;
+  padding: 1.75em;
   line-height: 1.125em;
   cursor: pointer;
 }
@@ -734,7 +734,7 @@ body {
 }
 @media (max-width: 425px) {
   .slicknav_menu .slicknav_btn {
-    padding: 1.75em 1em 0.438em 0.45em !important;
+    padding: 1.75em 1em !important;
   }
 
   .button.menu span:before {
@@ -772,7 +772,7 @@ body {
 }
 
 .slicknav_btn {
-  padding: 6% 5% 0.438em 0.625em;
+  padding: 1.75em;
 }
 
 .mobile-navigation {
@@ -839,7 +839,7 @@ body {
   margin: 0 !important;
 }
 .slicknav_menu .slicknav_btn {
-  padding: 1.75em 1.75em 0.438em 0.625em;
+  padding: 1.75em;
 }
 
 @media (min-width: 1140px) {
@@ -1339,7 +1339,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   margin: 0 auto;
 }
 #mc_embed_signup input, #mc_embed_signup textarea {
-  width: 96.3%;
+  width: 93.706%;
   margin-bottom: 1.2em;
   letter-spacing: 2px;
 }
@@ -1358,10 +1358,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 input, textarea {
   border: 1px solid #898989;
   font-size: 1.15em;
-  line-height: 1em;
+  line-height: 1.15em;
   font-weight: 200;
   text-transform: uppercase;
-  padding: .65em;
+  padding: 3.147%;
   color: #0c1833;
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
