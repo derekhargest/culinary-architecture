@@ -30,6 +30,7 @@
 						<img src="<?php the_field('page_banner_2'); ?>" alt="<?php the_title(); ?> Banner" />
 					<?php endif; ?>
 				</div>
+				<div class="container">
 					<div class="content-container">
 						<?php if (get_field('page_content_title_2')): ?>
 							<h2><?php echo get_field('page_content_title_2'); ?></h2>
@@ -48,6 +49,7 @@
 						<?php endif ?>
 
 					</div>
+				</div>
 
 				</div>
 
