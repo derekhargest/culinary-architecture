@@ -56,8 +56,6 @@
 
 				</div>
 
-				<?php get_template_part( 'template-parts/image-row' ); ?>
-
 				<div class="content-container bottom">
 
 					<?php get_template_part( 'template-parts/secondary-content' ); ?>
