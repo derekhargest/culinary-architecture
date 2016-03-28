@@ -63,16 +63,16 @@
 		&:hover{
 			cursor: pointer;
 		}
-		&:hover a{
-		 border-bottom: 1px solid rgba(221, 58, 39, 1);
-		 color: rgba(221,58,39,1);
-	 }
 		a{
 			-webkit-transition: all .25s ease-in-out;
 		-moz-transition: all .25s ease-in-out;
 		-ms-transition: all .25s ease-in-out;
 		-o-transition: all .25s ease-in-out;
 		border-bottom: 1px solid rgba(221, 58, 39, 0);
+		&:hover {
+		 border-bottom: 1px solid rgba(221, 58, 39, 1);
+		 color: rgba(221,58,39,1);
+	 }
 
 		}
 

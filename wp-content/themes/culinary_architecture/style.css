@@ -808,16 +808,16 @@ body {
 .main-navigation ul li:hover {
   cursor: pointer;
 }
-.main-navigation ul li:hover a {
-  border-bottom: 1px solid #dd3a27;
-  color: #dd3a27;
-}
 .main-navigation ul li a {
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -ms-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
   border-bottom: 1px solid rgba(221, 58, 39, 0);
+}
+.main-navigation ul li a:hover {
+  border-bottom: 1px solid #dd3a27;
+  color: #dd3a27;
 }
 .main-navigation ul li:last-child {
   background: #cfd9ef;
