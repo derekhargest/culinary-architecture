@@ -1157,7 +1157,7 @@ body {
   border-left: 1.75em solid transparent;
 }
 
-.main-banner {
+.home .main-banner {
   padding: 1em 0 1em 0;
   background: #001532;
 }
@@ -1168,7 +1168,7 @@ body {
   }
 }
 @media (max-width: 646px) {
-  .main-banner {
+  .home .main-banner {
     padding: 1em 0 1.5em 0;
   }
 }
