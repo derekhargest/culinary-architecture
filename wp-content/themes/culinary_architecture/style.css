@@ -1167,7 +1167,7 @@ body {
     margin-bottom: 80px;
   }
 }
-@media (min-width: 646px) {
+@media (max-width: 646px) {
   .main-banner {
     padding: .40em 0 1.5em 0;
   }
