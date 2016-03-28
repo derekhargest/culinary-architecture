@@ -1158,7 +1158,7 @@ body {
 }
 
 .main-banner {
-  padding: .40em 0 1em 0;
+  padding: 1em 0 1em 0;
   background: #001532;
 }
 
@@ -1169,7 +1169,7 @@ body {
 }
 @media (max-width: 646px) {
   .main-banner {
-    padding: .40em 0 1.5em 0;
+    padding: 1em 0 1.5em 0;
   }
 }
 .page-template-template-contact .circle-quote {
