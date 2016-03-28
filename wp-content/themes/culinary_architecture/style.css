@@ -1157,6 +1157,11 @@ body {
   border-left: 1.75em solid transparent;
 }
 
+.main-banner {
+  padding: .40em 0 2.5em 0;
+  background: #001532;
+}
+
 @media (min-width: 1170px) {
   .banner {
     margin-bottom: 80px;
