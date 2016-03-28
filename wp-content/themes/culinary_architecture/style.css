@@ -1364,4 +1364,5 @@ input, textarea {
   padding: .65em;
   color: #0c1833;
   -webkit-appearance: none;
+  -webkit-border-radius: 0px;
 }
