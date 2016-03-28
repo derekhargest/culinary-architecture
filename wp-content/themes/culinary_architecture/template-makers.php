@@ -20,11 +20,40 @@
 
 				<div class="content-container">
 
-					<?php if (get_field('quote1')): ?>
-
-						<?php get_template_part( 'template-parts/quote-areasm' ); ?>
-
-					<?php endif ?>
+					<div class="makers-list">
+						<h2>Thinkers, Tinkerers, Makers &amp; Shakers, calling all creatives!</h2>
+						<div class="makers-item">
+							<h3>Food Artisans</h3>
+								<ul>
+									<li>Beverages</li>
+									<li>Condiments</li>
+									<li>Dry Packaged Goods</li>
+									<li>Indie Food Products</li>
+									<li>Regional "Maryland" Products</li>
+								</ul>
+						</div>
+						<div class="makers-item">
+							<h3>Tinkerers &amp; Makers</h3>
+								<ul>
+									<li>Gifts</li>
+									<li>Prints</li>
+									<li>Textiles</li>
+									<li>Tabletop &amp; Housewares</li>
+									<li>Culinary Gadgets &amp; Utensils</li>
+								</ul>
+						</div>
+						<div class="makers-item last">
+							<h3>Gather &amp; Mingle</h3>
+								<ul>
+									<li>Performance Art</li>
+									<li>Food &amp; Makers Swaps</li>
+									<li>Community Engagement</li>
+									<li>Creative Ideas for Gatherings</li>
+									<li>Local Grower &amp; Farm Food Events</li>
+									<li>Art, Design &amp; Technology Mingled Dinners</li>
+								</ul>
+						</div>
+					</div>
 
 				</div>
 

@@ -40,6 +40,7 @@
 				margin-bottom: 2em;
 				&:hover img{
 					opacity: .85;
+					cursor: pointer;
 				}
 				img{
 					transition: opacity .25s ease-in-out;

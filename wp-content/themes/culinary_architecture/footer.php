@@ -2,7 +2,7 @@
 	<div class="footer-content container">
 		<h4>Come Say Hi</h4>
 		<div class="footer-item">
-			<p>P: <span>410-555-5555</span></p>
+			<!-- <p>P: <span>410-555-5555</span></p> -->
 			<p>E: <span>Hi@<span>culinaryarchitecture<span>.com</span><span></span></p>
 		</div>
 		<div class="footer-item">
@@ -17,9 +17,9 @@
 			<p>Breakfast &amp; Lunch</p>
 		</div>
 		<ul class="footer-social">
-			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.facebook.com/culinaryarchitecture/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://www.instagram.com/culinaryarchitecture/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://twitter.com/CulArtBaltimore" target="_blank"><i class="fa fa-twitter"></i></a></li>
 		</ul>
 		<p><small>&copy; Culinary Architecture</small></p>
 	</div>

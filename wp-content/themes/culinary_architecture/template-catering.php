@@ -21,6 +21,16 @@
 
 			<div class="content-container">
 
+				<?php if (get_field('menu_pdf')): ?>
+
+					<a href="<?php echo the_field('menu_pdf'); ?>" class="button menu"><span class="icon-download"></span><span>Catering Menu</span></a>
+
+				<?php else: ?>
+
+					<a href="javascript: void(0)" class="button menu"><span class="icon-download"></span><span>Catering Menu</span></a>
+
+				<?php endif; ?>
+
 				<?php if (get_field('quote1')): ?>
 
 					<?php get_template_part( 'template-parts/quote-area1' ); ?>

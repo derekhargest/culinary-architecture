@@ -1,0 +1,17 @@
+.makers-list{
+  @include clearfix;
+}
+
+.makers-item{
+  @include span(4 of 12);
+  &.last{
+    @include span( 4 of 12 last );
+  }
+  h3{
+    text-align: center;
+  }
+  ul li{
+    text-align: center;
+    font-size: .75em;
+  }
+}

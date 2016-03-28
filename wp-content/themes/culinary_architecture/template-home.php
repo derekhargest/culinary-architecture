@@ -23,6 +23,7 @@
 						<?php endif ?>
 					</div>
 				</div>
+			</div>
 
 				<div class="banner">
 					<?php if (get_field('page_banner_2')): ?>
