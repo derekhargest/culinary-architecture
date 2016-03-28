@@ -1090,26 +1090,45 @@ body {
 .makers-list {
   overflow: hidden;
   *zoom: 1;
+  padding-top: 1em;
 }
 
 .makers-item {
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%;
+  width: 100%;
+  padding-bottom: 1.5em;
 }
 .makers-item.last {
-  width: 32.20339%;
-  float: right;
-  margin-right: 0;
+  padding-bottom: 0;
 }
 .makers-item h3 {
   text-align: center;
+  font-size: 1.5em;
 }
 .makers-item ul li {
   text-align: center;
-  font-size: .75em;
+  font-size: 1em;
 }
 
+@media (min-width: 1140px) {
+  .makers-item {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-bottom: 0;
+  }
+  .makers-item.last {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+  .makers-item h3 {
+    text-align: center;
+    font-size: 1em;
+  }
+  .makers-item ul li {
+    font-size: .65em;
+  }
+}
 .banner {
   position: relative;
   margin-bottom: 60px;

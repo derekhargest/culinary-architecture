@@ -21,7 +21,6 @@
 				<div class="content-container">
 
 					<div class="makers-list">
-						<h2>Thinkers, Tinkerers, Makers &amp; Shakers, calling all creatives!</h2>
 						<div class="makers-item">
 							<h3>Food Artisans</h3>
 								<ul>

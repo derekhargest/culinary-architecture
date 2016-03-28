@@ -31,6 +31,8 @@
 
 				<?php endif; ?>
 
+				<a href="contact-us" class="button"><span>Contact Us for Catering</span></a>
+
 				<?php if (get_field('quote1')): ?>
 
 					<?php get_template_part( 'template-parts/quote-area1' ); ?>

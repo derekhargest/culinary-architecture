@@ -1,17 +1,38 @@
 .makers-list{
   @include clearfix;
+  padding-top: 1em;
 }
 
 .makers-item{
-  @include span(4 of 12);
+  width: 100%;
+  padding-bottom: 1.5em;
   &.last{
-    @include span( 4 of 12 last );
+    padding-bottom: 0;
   }
   h3{
     text-align: center;
+    font-size: 1.5em;
   }
   ul li{
     text-align: center;
-    font-size: .75em;
+    font-size: 1em;
+  }
+}
+
+
+@media (min-width: 1140px){
+  .makers-item{
+    @include span(4 of 12);
+    padding-bottom: 0;
+    &.last{
+      @include span( 4 of 12 last );
+    }
+    h3{
+      text-align: center;
+      font-size: 1em;
+    }
+    ul li{
+      font-size: .65em;
+    }
   }
 }
