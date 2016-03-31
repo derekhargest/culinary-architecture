@@ -13,7 +13,7 @@
 			<p class="hours"><span class="label">Store Hours</span> <br /><span>Tuesday - Saturday 10-7</span></p>
 		</div>
 		<div class="footer-item last">
-			<p>Catering <span>Monday - Friday</span></p>
+			<p class="hours"><span class="label">Catering</span> <br /><span>Monday - Friday</span></p>
 			<p>Breakfast &amp; Lunch</p>
 		</div>
 		<ul class="footer-social">
