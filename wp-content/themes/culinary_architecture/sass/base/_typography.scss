@@ -159,6 +159,10 @@ small{
 	}
 }
 
+.footer-item .email{
+	font-size: .85em;
+}
+
 .content-container .contact-items{
 		h1, h2, h3, h4, p, address{
 		color: $c-ca_blue;
@@ -206,6 +210,9 @@ small{
 @media (min-width: 580px){
 	.circle-quote.large .quote-content p{
 		font-size: .95em;
+	}
+	.footer-item .email{
+		font-size: 1em;
 	}
 }
 

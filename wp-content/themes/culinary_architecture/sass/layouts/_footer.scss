@@ -17,10 +17,6 @@
 	&.last{
 		margin-bottom: 2em;
 	}
-	span{
-		width: 100%;
-		float: left;
-	}
 }
 
 .footer-social{
@@ -57,6 +53,10 @@
 			opacity: 0.5;
 		}
 	}
+}
+
+.footer-item .hours .label {
+	text-decoration: underline;
 }
 
 @media (min-width: 450px){

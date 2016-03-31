@@ -3,14 +3,14 @@
 		<h4>Come Say Hi</h4>
 		<div class="footer-item">
 			<!-- <p>P: <span>410-555-5555</span></p> -->
-			<p>E: <span>Hi@<span>culinaryarchitecture<span>.com</span><span></span></p>
+			<p class="email">E: <br /><span>Hi@<span>culinaryarchitecture<span>.com</span><span></span></p>
 		</div>
 		<div class="footer-item">
 			<address><span>767 Washington Blvd.</span><br />
 			<span>Baltimore MD 21230</span></address>
 		</div>
 		<div class="footer-item">
-			<p>Store Hours <span>Tuesday - Saturday 10-7</span></p>
+			<p class="hours"><span class="label">Store Hours</span> <br /><span>Tuesday - Saturday 10-7</span></p>
 		</div>
 		<div class="footer-item last">
 			<p>Catering <span>Monday - Friday</span></p>
