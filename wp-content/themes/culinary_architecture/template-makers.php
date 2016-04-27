@@ -20,6 +20,16 @@
 
 				<div class="content-container">
 
+					<?php if (get_field('makers_pdf')): ?>
+
+						<a href="<?php echo the_field('makers_pdf'); ?>" class="button menu"><span class="icon-download"></span><span>Open Call</span></a>
+
+					<?php else: ?>
+
+						<a href="javascript: void(0)" class="button menu"><span class="icon-download"></span><span>Open Call</span></a>
+
+					<?php endif; ?>
+
 					<div class="makers-list">
 						<div class="makers-item">
 							<h3>Food Artisans</h3>
