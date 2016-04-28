@@ -1,4 +1,17 @@
 <?php
+
+/**
+ * The template part for displaying a small quote area
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
+
+<?php
 	if( have_rows('quote1') ):
 	    while( have_rows('quote1') ) : the_row();
 			$quoteContent = get_sub_field('quote_content');

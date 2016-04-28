@@ -1,4 +1,17 @@
-<?php /* Template Name: Contact Template */ ?>
+<?php
+
+/* Template Name: Contact Template */
+
+/**
+ * The template for displaying the Contact Page
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
 
 <?php get_header(); ?>
 <div id="primary" class="content-area">

@@ -19,7 +19,7 @@ get_header(); ?>
 			<?php endif ?>
 
 			<div class="container">
-			
+
 			<?php
 			while ( have_posts() ) : the_post();
 

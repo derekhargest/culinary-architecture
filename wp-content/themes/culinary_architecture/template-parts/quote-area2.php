@@ -1,4 +1,17 @@
 <?php
+
+/**
+ * The template part for displaying a secondary quote
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
+
+<?php
 	if( have_rows('quote2') ):
 	    while( have_rows('quote2') ) : the_row();
 			$quoteContent2 = get_sub_field('quote_content');

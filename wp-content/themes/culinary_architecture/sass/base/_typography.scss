@@ -84,10 +84,6 @@ small{
 		text-transform: uppercase;
 		text-decoration: none;
 		font-weight: 600;
-		&:hover{
-
-
-		}
 	}
 	&:last-child a{
 		font-weight: 900;
@@ -152,7 +148,6 @@ small{
 		font-weight: 900;
 		font-size: 1em;
 	}
-
 	h4{
 		font-size: 1.75em;
 		padding: .14em 0;
@@ -173,10 +168,6 @@ small{
 	address{
 		margin-top: 1em;
 	}
-}
-
-.content-container .contact-items p{
-
 }
 
 .staff-row{
@@ -229,8 +220,6 @@ small{
 	.circle-quote p{
 		font-size: .85em;
 	}
-
-
 	.circle-quote.small{
 		.quote-content p{
 			font-size: 120%;

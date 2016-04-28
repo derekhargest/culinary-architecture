@@ -113,18 +113,18 @@
 		}
 	}
 }
+
 @media (max-width: 400px){
 	.circle-quote.large{
 		.quote-inner{
-
 			p{
 				font-size: 100% !important;
 			}
 		}
 	}
 }
-@media (max-width: 630px){
 
+@media (max-width: 630px){
 	.circle-quote.large{
 		width: 100% !important;
 		.quote-inner{
@@ -164,22 +164,15 @@
 }
 
 @media (min-width: 850px){
-	.banner{
-			margin-bottom: 80px;
-	}
 	.quote-inner{
 		padding-top: .5em;
 	}
 	.quote-inner.large{
 		min-width: 426px;
-
 	}
-
 	.page-template-template-contact .circle-quote{
 		min-width: 518px;
 		margin: 0 auto;
 		margin-top: 6em;
 	}
-
-
 }

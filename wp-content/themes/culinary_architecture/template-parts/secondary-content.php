@@ -1,3 +1,16 @@
+<?php
+
+/**
+ * The template part for displaying secondary content
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
+
 	<?php
 	if( have_rows('secondary_content') ):
 	while( have_rows('secondary_content') ) : the_row();

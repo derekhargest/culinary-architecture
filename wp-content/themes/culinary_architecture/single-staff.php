@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single posts and attachments
+ * The template for displaying a single staff member
  *
  * @package Culinary Architecure
  * @subpackage Culinary Architecure
@@ -29,7 +29,7 @@ get_header(); ?>
 			?>
 
 			<div class="content-container">
-			
+
 				<?php if (get_field('quote1')): ?>
 
 					<?php get_template_part( 'template-parts/quote-arealg' ); ?>

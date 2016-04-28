@@ -1,3 +1,16 @@
+<?php
+
+/**
+ * The template for displaying the footer
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
+
 <footer class="site-footer">
 	<div class="footer-content container">
 		<h4>Come Say Hi</h4>

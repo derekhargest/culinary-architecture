@@ -10,6 +10,10 @@
 	.site-title{
 		display: table-cell;
 		vertical-align: middle;
+		span{
+			display: block;
+			text-indent: -999999px;
+		}
 	}
 	a img{
 		width: 100%;
@@ -17,7 +21,6 @@
 	&:hover{
 		opacity: .85;
 	}
-
 }
 
 .site-header-main{
@@ -44,11 +47,6 @@
 			@include clearfix;
 		}
 	}
-}
-
-.logo .site-title span{
-	display: block;
-	text-indent: -999999px;
 }
 
 .main-navigation{

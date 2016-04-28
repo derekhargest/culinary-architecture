@@ -1,4 +1,17 @@
-<?php /* Template Name: Makers Template */ ?>
+<?php
+
+/* Template Name: Makers Template */
+
+/**
+ * The template for displaying the Makers Page
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
 
 <?php get_header(); ?>
 

@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php
+/**
+ * The template for displaying a single page
+ *
+ * @package Culinary Architecure
+ * @subpackage Culinary Architecure
+ * @since 2016
+ */
+
+get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">

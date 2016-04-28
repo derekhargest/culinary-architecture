@@ -1,4 +1,18 @@
-<?php /* Template Name: Private Dining Template */ ?>
+<?php
+
+/* Template Name: Private Dining Template */
+
+/**
+ * The template for displaying the Private Dining Page
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
+
 
 <?php get_header(); ?>
 

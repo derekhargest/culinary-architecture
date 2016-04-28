@@ -1,9 +1,5 @@
 <?php
 
-
-	update_option('siteurl','localhost:8888/culinary-architecture');
-	update_option('home','localhost:8888/culinary-architecture');
-
 	function theme_name_scripts() {
 		wp_enqueue_style( 'style-name', get_stylesheet_uri() );
 	}

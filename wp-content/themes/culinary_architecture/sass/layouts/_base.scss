@@ -39,8 +39,6 @@ body {background:#fff;}
 	}
 }
 
-
-
 .content-container{
 	p{
 		margin-bottom: 2em;
@@ -130,29 +128,6 @@ body {background:#fff;}
 
 #map{
 	height: 400px;
-}
-#fancybox-title{
-	display: none !important;
-
-}
-#fancybox-left-ico, #fancybox-right-ico, #fancybox-close{
-	width: 47px !important;
-	height: 47px !important;
-}
-
-#fancybox-left-ico {
-    background-image: url('images/left-arrow.png') !important;
-    background-position: 0px 0px !important;
-}
-
-#fancybox-right-ico {
-    background-image: url('images/right-arrow.png') !important;
-    background-position: 0px 0px !important;
-}
-
-#fancybox-close{
-	background-image: url('images/close-btn.png') !important;
-	background-position: 0px 0px !important;
 }
 
 

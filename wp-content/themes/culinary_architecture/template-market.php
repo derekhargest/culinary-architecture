@@ -1,4 +1,17 @@
-<?php /* Template Name: Market Template */ ?>
+<?php
+
+/* Template Name: Market Template */
+
+/**
+ * The template for displaying the Market Page
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
 
 <?php get_header(); ?>
 

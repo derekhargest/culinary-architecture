@@ -1,3 +1,15 @@
+<?php
+
+/**
+ * The template part for displaying a row of 3 images
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
 
 <?php if( have_rows('image_row') ): ?>
 	<div class="banner main-banner image-row">

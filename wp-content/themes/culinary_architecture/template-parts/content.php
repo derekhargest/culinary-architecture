@@ -2,8 +2,8 @@
 /**
  * The template part for displaying content
  *
- * @package WordPress
- * @subpackage Culinary_Architecture
+ * @package Culinary Architecture
+ * @subpackage Culinary Architecture
  * @since 2016
  */
 ?>

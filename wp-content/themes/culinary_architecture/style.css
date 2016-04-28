@@ -479,13 +479,6 @@ small {
     padding: 0;
   }
 }
-.site-main {
-  margin-top: 4.21em;
-  overflow: hidden;
-  *zoom: 1;
-  float: left;
-}
-
 .container {
   max-width: 1410px;
   margin-left: auto;
@@ -498,6 +491,20 @@ small {
   content: " ";
   display: block;
   clear: both;
+}
+
+.site-main {
+  margin-top: 4.21em;
+  overflow: hidden;
+  *zoom: 1;
+  float: left;
+}
+
+.home .site-main {
+  margin-bottom: 90px;
+}
+.home .site-main article {
+  margin-bottom: .5em;
 }
 
 .content-container {
@@ -523,14 +530,6 @@ small {
   content: " ";
   display: block;
   clear: both;
-}
-
-.home .site-main {
-  margin-bottom: 90px;
-}
-
-.site-main article {
-  margin-bottom: .5em;
 }
 
 @media (min-width: 450px) {
@@ -686,30 +685,6 @@ body {
   height: 400px;
 }
 
-#fancybox-title {
-  display: none !important;
-}
-
-#fancybox-left-ico, #fancybox-right-ico, #fancybox-close {
-  width: 47px !important;
-  height: 47px !important;
-}
-
-#fancybox-left-ico {
-  background-image: url("images/left-arrow.png") !important;
-  background-position: 0px 0px !important;
-}
-
-#fancybox-right-ico {
-  background-image: url("images/right-arrow.png") !important;
-  background-position: 0px 0px !important;
-}
-
-#fancybox-close {
-  background-image: url("images/close-btn.png") !important;
-  background-position: 0px 0px !important;
-}
-
 @media (min-width: 630px) {
   .button {
     width: 54.7%;
@@ -764,6 +739,10 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+.logo .site-title span {
+  display: block;
+  text-indent: -999999px;
+}
 .logo a img {
   width: 100%;
 }
@@ -797,11 +776,6 @@ body {
 .main-navigation .menu-main-navigation-container .menu {
   overflow: hidden;
   *zoom: 1;
-}
-
-.logo .site-title span {
-  display: block;
-  text-indent: -999999px;
 }
 
 .main-navigation ul li {
@@ -981,12 +955,35 @@ body {
   -webkit-transition: opacity .25s ease-in-out;
   -webkit-backface-visibility: hidden;
 }
+.page-gallery a:hover img {
+  opacity: .85;
+}
 .page-gallery h2 {
   display: none;
 }
 
-.page-gallery a:hover img {
-  opacity: .85;
+#fancybox-title {
+  display: none !important;
+}
+
+#fancybox-left-ico, #fancybox-right-ico, #fancybox-close {
+  width: 47px !important;
+  height: 47px !important;
+}
+
+#fancybox-left-ico {
+  background-image: url("images/left-arrow.png") !important;
+  background-position: 0px 0px !important;
+}
+
+#fancybox-right-ico {
+  background-image: url("images/right-arrow.png") !important;
+  background-position: 0px 0px !important;
+}
+
+#fancybox-close {
+  background-image: url("images/close-btn.png") !important;
+  background-position: 0px 0px !important;
 }
 
 @media (min-width: 450px) {
@@ -1175,6 +1172,11 @@ body {
     margin-bottom: 80px;
   }
 }
+@media (min-width: 850px) {
+  .banner {
+    margin-bottom: 80px;
+  }
+}
 @media (max-width: 646px) {
   .home .main-banner {
     padding: 1em 0 1.5em 0;
@@ -1329,10 +1331,6 @@ body {
   }
 }
 @media (min-width: 850px) {
-  .banner {
-    margin-bottom: 80px;
-  }
-
   .quote-inner {
     padding-top: .5em;
   }

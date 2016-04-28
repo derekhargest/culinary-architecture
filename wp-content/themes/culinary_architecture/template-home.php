@@ -1,4 +1,17 @@
-<?php /* Template Name: Home Template */ ?>
+<?php
+
+/* Template Name: Home Template */
+
+/**
+ * The template for displaying the Home Page
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
 
 <?php get_header(); ?>
 

@@ -1,4 +1,17 @@
-<?php /* Template Name: Catering Template */ ?>
+<?php
+
+/* Template Name: Catering Template */
+
+/**
+ * The template for displaying the Catering Page
+ *
+ *
+ * @package Culinary Architecture
+ * @subpackage Culinary Architechture
+ * @since 2016
+ */
+
+ ?>
 
 <?php get_header(); ?>
 
