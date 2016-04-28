@@ -19,8 +19,6 @@
 
 	<main id="main" class="site-main home" role="main">
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
 				<?php get_template_part( 'template-parts/content-banner' ); ?>
 
 				<div class="container">
@@ -83,7 +81,6 @@
 
 				</div>
 
-			</article><!-- #post-## -->
 
 	</main>
 
