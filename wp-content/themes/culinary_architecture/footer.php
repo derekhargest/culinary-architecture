@@ -90,5 +90,27 @@ window.onresize = function(event) {
 
 </script>
 
+<script>
+	function initialize() {
+		var myLatLng = {lat: 39.282958, lng: -76.627836};
+
+		var mapCanvas = document.getElementById('map');
+		var mapOptions = {
+			zoom: 17,
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			center: new google.maps.LatLng(39.282958, -76.627836),
+			scrollwheel: false,
+			draggable: false
+		}
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+						var marker = new google.maps.Marker({
+								map: map,
+								position: myLatLng,
+								title: 'Culinary Architecture'
+		});
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
 </body>
 </html>
