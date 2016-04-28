@@ -53,4 +53,5 @@
 
 	}
 	add_action( 'widgets_init', 'arphabet_widgets_init' );
+	
 ?>

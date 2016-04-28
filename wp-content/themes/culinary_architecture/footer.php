@@ -16,7 +16,7 @@
 		<h4>Come Say Hi</h4>
 		<div class="footer-item">
 			<!-- <p>P: <span>410-555-5555</span></p> -->
-			<p class="email"><span>Hi@<span>culinaryarchitecture<span>.com</span><span></span></p>
+			<p class="email"><span>Hi@culinaryarchitecture.com</span></p>
 		</div>
 		<div class="footer-item">
 			<address><span>767 Washington Blvd.</span><br />
