@@ -22,6 +22,15 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
   .ninja-forms-required-items{
     display: none;
   }
+  .mc4wp-checkbox-ninja-forms{
+    input{
+      width: auto;
+      margin-bottom: 0;
+      margin-top: 0;
+      position: relative;
+      bottom: .1em;
+    }
+  }
 }
 
 input, textarea{
@@ -34,4 +43,10 @@ input, textarea{
   color: $c-text-color;
   -webkit-border-radius: 0px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.mc4wp-checkbox.mc4wp-checkbox-ninja-forms{
+  span{
+    font-weight: 400;
+  }
 }
