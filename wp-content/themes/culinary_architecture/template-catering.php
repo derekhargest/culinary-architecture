@@ -34,6 +34,8 @@
 
 			<div class="content-container">
 
+          <p>For catering inquiries contact us at: <a href="mailto:catering@culinaryarchitecture.com">catering@culinaryarchitecture.com</a>.</p>
+
 				<?php if (get_field('menu_pdf')): ?>
 
 					<a href="<?php echo the_field('menu_pdf'); ?>" class="button menu"><span class="icon-download"></span><span>Catering Menu</span></a>
@@ -44,7 +46,7 @@
 
 				<?php endif; ?>
 
-				<a href="contact-us" class="button"><span>Contact Us for Catering</span></a>
+
 
 				<?php if (get_field('quote1')): ?>
 

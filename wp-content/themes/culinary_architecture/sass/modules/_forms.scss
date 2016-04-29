@@ -3,25 +3,25 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
   color: $c-text-color;
 }
 
-#mc_embed_signup{
+#ninja_forms_form_1_cont{
   width: 80%;
   margin: 0 auto;
   input, textarea{
-    width: 93.706%;
+    width: 100%;
     margin-bottom: 1.2em;
     letter-spacing: 2px;
   }
-  .button{
+  #nf_submit_1 input{
     width: 100% !important;
     background-color: #52b270;
     margin-top: 1em;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
   }
-}
-
-#mc_embed_signup label{
-  text-indent: -9999px;
-  display: block;
-  height: 0;
+  .ninja-forms-required-items{
+    display: none;
+  }
 }
 
 input, textarea{
@@ -32,7 +32,6 @@ input, textarea{
   text-transform: uppercase;
   padding: 3.147%;
   color: $c-text-color;
-  -webkit-appearance: none;
   -webkit-border-radius: 0px;
   font-family: 'Open Sans', sans-serif;
 }
