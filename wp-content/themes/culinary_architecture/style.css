@@ -689,9 +689,10 @@ body {
   .button {
     width: 54.7%;
   }
-
+}
+@media (min-width: 1140px) {
   .page-template-template_private-dining .button {
-    width: 69.1%;
+    width: 49.1%;
   }
 }
 @media (max-width: 1120px) {

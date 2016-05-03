@@ -136,10 +136,13 @@ body {background:#fff;}
 		.button{
 		width: 54.7%;
 	}
+}
 
-	.page-template-template_private-dining .button{
-		width: 69.1%;
-	}
+@media (min-width: 1140px){
+
+.page-template-template_private-dining .button{
+	width: 49.1%;
+}
 }
 
 @media (max-width: 1120px){
