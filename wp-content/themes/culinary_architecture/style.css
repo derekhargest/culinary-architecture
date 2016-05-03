@@ -709,10 +709,6 @@ body {
   .button.menu span:after {
     display: none;
   }
-
-  .page-template-template_private-dining .button {
-    width: 53.1%;
-  }
 }
 @media (max-width: 625px) {
   .button.menu {
