@@ -670,7 +670,7 @@ body {
 }
 
 .page-template-template_private-dining .button {
-  background: #9c79b6;
+  width: 100%;
 }
 
 .secondary-content {
@@ -689,6 +689,10 @@ body {
   .button {
     width: 54.7%;
   }
+
+  .page-template-template_private-dining .button {
+    width: 69.1%;
+  }
 }
 @media (max-width: 1120px) {
   .button.menu span {
@@ -704,6 +708,10 @@ body {
   }
   .button.menu span:after {
     display: none;
+  }
+
+  .page-template-template_private-dining .button {
+    width: 53.1%;
   }
 }
 @media (max-width: 625px) {

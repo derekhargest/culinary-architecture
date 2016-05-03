@@ -114,9 +114,10 @@ body {background:#fff;}
 }
 
 .page-template-template_private-dining .button{
-	background: $c-ca_purple;
-
+	width: 100%;
 }
+
+
 
 .secondary-content{
 	margin-top: 3em;
@@ -134,6 +135,10 @@ body {background:#fff;}
 @media (min-width: 630px){
 		.button{
 		width: 54.7%;
+	}
+
+	.page-template-template_private-dining .button{
+		width: 69.1%;
 	}
 }
 
@@ -153,6 +158,10 @@ body {background:#fff;}
 				display: none;
 			}
 		}
+	}
+	.page-template-template_private-dining .button{
+		width: 53.1%;
+
 	}
 }
 
