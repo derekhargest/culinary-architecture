@@ -33,8 +33,6 @@
 
 			<div class="content-container">
 
-				<p>( Coming Late Spring 2016 )</p>
-
 				<?php if (get_field('menu_pdf')): ?>
 
 					<a href="<?php echo the_field('menu_pdf'); ?>" class="button menu"><span class="icon-download"></span><span>Market Menu</span></a>
